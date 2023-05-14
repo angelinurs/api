@@ -68,6 +68,7 @@ public class SwaggerSpecificationController {
 	@GetMapping( value="/log/test" )
 	public String logTest() {
 		log.info( "[test log] {} function call", "logtest" );
+		
 		return "complete";
 	}
 
